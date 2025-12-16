@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Memory Game</title>	
+				<!--style of my page-->
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="start-game">
+			<span>Start Game</span>
+		</div>
+		<!-- <div class="winner-game"> -->
+			<!-- <span></span> -->
+		<!-- </div> -->
+		<div class="info-container">
+			<div class="name-player-one">
+				Hello <span></span>
+			</div>
+			<div class="tries-player-one">
+				Wrong Tries <span>0</span>
+			</div>
+			<span>VS</span>
+			<div class="name-player-two">
+				Hello <span></span>
+			</div>
+			<div class="tries-player-two">
+				Wrong Tries <span>0</span>
+			</div>
+		</div>
+		<div class="memory-game-blocks">
+			<div class="game-block" data-animals="Baby-Panda">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Baby-Panda.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Baby-Panda">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Baby-Panda.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Bear">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Bear.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Bear">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Bear.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Cat">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Cat.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Cat">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Cat.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Gazelle">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Gazelle.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Gazelle">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Gazelle.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Gorilla">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Gorilla.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Gorilla">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Gorilla.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Lemurs">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Lemurs.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Lemurs">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Lemurs.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Lion">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Lion.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Lion">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Lion.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Owl">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Owl.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Owl">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Owl.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Sloth">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Sloth.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Sloth">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Sloth.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Tiger">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Tiger.jpg">
+				</div>
+			</div>
+			<div class="game-block" data-animals="Tiger">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="image/Tiger.jpg">
+				</div>
+			</div>
+		</div>
+		<audio src="sound/robotic-countdown-43935.mp3" preload="auto" id="start"></audio>
+		<audio src="sound/mixkit-player-losing-or-failing-2042.wav" preload="auto" id="fail"></audio>
+		<audio src="sound/mixkit-video-game-treasure-2066.wav" preload="auto" id="success"></audio>
+		<script src="main.js"></script>
+	</body>
+</html>
